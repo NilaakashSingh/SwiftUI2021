@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29059CD326954843003FC06E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29059CD226954843003FC06E /* HomeView.swift */; };
+		29059CD626954A01003FC06E /* AsyncImageViewSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29059CD526954A01003FC06E /* AsyncImageViewSwiftUI.swift */; };
+		29059CD826954DB8003FC06E /* AsyncImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 29059CD726954DB8003FC06E /* AsyncImage.png */; };
 		2910523B26750C8B00360DAA /* SwiftUI2021App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910523A26750C8B00360DAA /* SwiftUI2021App.swift */; };
 		2910523D26750C8B00360DAA /* TimelineViewSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910523C26750C8B00360DAA /* TimelineViewSwiftUI.swift */; };
 		2910523F26750C8D00360DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2910523E26750C8D00360DAA /* Assets.xcassets */; };
 		2910524226750C8D00360DAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2910524126750C8D00360DAA /* Preview Assets.xcassets */; };
 		2910524C26750C8E00360DAA /* SwiftUI2021Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910524B26750C8E00360DAA /* SwiftUI2021Tests.swift */; };
 		2910525626750C8E00360DAA /* SwiftUI2021UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910525526750C8E00360DAA /* SwiftUI2021UITests.swift */; };
-		291052642675104E00360DAA /* simulator_screenshot_8AE865C4-AE94-431C-828E-195F2E72F886.png in Resources */ = {isa = PBXBuildFile; fileRef = 291052632675104E00360DAA /* simulator_screenshot_8AE865C4-AE94-431C-828E-195F2E72F886.png */; };
+		291052642675104E00360DAA /* TimeLineView.png in Resources */ = {isa = PBXBuildFile; fileRef = 291052632675104E00360DAA /* TimeLineView.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29059CD226954843003FC06E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		29059CD526954A01003FC06E /* AsyncImageViewSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageViewSwiftUI.swift; sourceTree = "<group>"; };
+		29059CD726954DB8003FC06E /* AsyncImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AsyncImage.png; sourceTree = "<group>"; };
 		2910523726750C8B00360DAA /* SwiftUI2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2910523A26750C8B00360DAA /* SwiftUI2021App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI2021App.swift; sourceTree = "<group>"; };
 		2910523C26750C8B00360DAA /* TimelineViewSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewSwiftUI.swift; sourceTree = "<group>"; };
@@ -43,7 +49,7 @@
 		2910524B26750C8E00360DAA /* SwiftUI2021Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI2021Tests.swift; sourceTree = "<group>"; };
 		2910525126750C8E00360DAA /* SwiftUI2021UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI2021UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2910525526750C8E00360DAA /* SwiftUI2021UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI2021UITests.swift; sourceTree = "<group>"; };
-		291052632675104E00360DAA /* simulator_screenshot_8AE865C4-AE94-431C-828E-195F2E72F886.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "simulator_screenshot_8AE865C4-AE94-431C-828E-195F2E72F886.png"; sourceTree = "<group>"; };
+		291052632675104E00360DAA /* TimeLineView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeLineView.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29059CD4269549E6003FC06E /* AsyncImage */ = {
+			isa = PBXGroup;
+			children = (
+				29059CD726954DB8003FC06E /* AsyncImage.png */,
+				29059CD526954A01003FC06E /* AsyncImageViewSwiftUI.swift */,
+			);
+			path = AsyncImage;
+			sourceTree = "<group>";
+		};
 		2910522E26750C8B00360DAA = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				291052622675103800360DAA /* TimeLine */,
+				29059CD4269549E6003FC06E /* AsyncImage */,
 				2910523A26750C8B00360DAA /* SwiftUI2021App.swift */,
 				2910523E26750C8D00360DAA /* Assets.xcassets */,
 				2910524026750C8D00360DAA /* Preview Content */,
+				29059CD226954843003FC06E /* HomeView.swift */,
 			);
 			path = SwiftUI2021;
 			sourceTree = "<group>";
@@ -130,7 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				2910523C26750C8B00360DAA /* TimelineViewSwiftUI.swift */,
-				291052632675104E00360DAA /* simulator_screenshot_8AE865C4-AE94-431C-828E-195F2E72F886.png */,
+				291052632675104E00360DAA /* TimeLineView.png */,
 			);
 			path = TimeLine;
 			sourceTree = "<group>";
@@ -239,8 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29059CD826954DB8003FC06E /* AsyncImage.png in Resources */,
 				2910524226750C8D00360DAA /* Preview Assets.xcassets in Resources */,
-				291052642675104E00360DAA /* simulator_screenshot_8AE865C4-AE94-431C-828E-195F2E72F886.png in Resources */,
+				291052642675104E00360DAA /* TimeLineView.png in Resources */,
 				2910523F26750C8D00360DAA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +284,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29059CD326954843003FC06E /* HomeView.swift in Sources */,
+				29059CD626954A01003FC06E /* AsyncImageViewSwiftUI.swift in Sources */,
 				2910523D26750C8B00360DAA /* TimelineViewSwiftUI.swift in Sources */,
 				2910523B26750C8B00360DAA /* SwiftUI2021App.swift in Sources */,
 			);
@@ -440,7 +460,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Alogorist.SwiftUI2021;
+				PRODUCT_BUNDLE_IDENTIFIER = NilaakashSingh.SwiftUI2021;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -469,7 +489,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Alogorist.SwiftUI2021;
+				PRODUCT_BUNDLE_IDENTIFIER = NilaakashSingh.SwiftUI2021;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -492,7 +512,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Alogorist.SwiftUI2021Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = NilaakashSingh.SwiftUI2021Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -516,7 +536,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Alogorist.SwiftUI2021Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = NilaakashSingh.SwiftUI2021Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -538,7 +558,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Alogorist.SwiftUI2021UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = NilaakashSingh.SwiftUI2021UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -560,7 +580,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Alogorist.SwiftUI2021UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = NilaakashSingh.SwiftUI2021UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;

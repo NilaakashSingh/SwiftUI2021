@@ -2,7 +2,7 @@
 //  SwiftUI2021App.swift
 //  SwiftUI2021
 //
-//  Created by Alogorist on 12/06/21.
+//  Created by Nilaakash Singh on 12/06/21.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI2021App: App {
     var body: some Scene {
         WindowGroup {
-            TimelineViewSwiftUI()
+            HomeView()
         }
     }
 }

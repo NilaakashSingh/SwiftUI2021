@@ -2,7 +2,7 @@
 //  SwiftUI2021UITests.swift
 //  SwiftUI2021UITests
 //
-//  Created by Alogorist on 12/06/21.
+//  Created by Nilaakash Singh on 12/06/21.
 //
 
 import XCTest
