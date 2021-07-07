@@ -9,6 +9,6 @@ Documentation: https://developer.apple.com/documentation/swiftui/timelineschedul
 
 ## ASync Image and its variety
 
-![alt text](https://github.com/Alogorist/Swift2021/blob/main/SwiftUI2021/TimeLine/TimeLineView.png)
+![alt text](https://github.com/NilaakashSingh/SwiftUI2021/blob/master/SwiftUI2021/AsyncImage/AsyncImage.png)
 
 Documentation: https://developer.apple.com/documentation/SwiftUI/AsyncImage
