@@ -1,5 +1,5 @@
 # SwiftUI2021
-This repo will demonstrate new components introduced in SwiftUI WWDC 2021
+This repo will demonstrate new components introduced in SwiftUI WWDC 2021 based on https://developer.apple.com/documentation/new-technologies-wwdc21
 
 ## Timeline View
 
