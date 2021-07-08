@@ -12,3 +12,9 @@ Documentation: https://developer.apple.com/documentation/swiftui/timelineschedul
 ![alt text](https://github.com/NilaakashSingh/SwiftUI2021/blob/master/SwiftUI2021/AsyncImage/AsyncImageVariety.png)
 
 Documentation: https://developer.apple.com/documentation/SwiftUI/AsyncImage
+
+## Focus State
+
+![alt text](https://github.com/NilaakashSingh/SwiftUI2021/blob/master/SwiftUI2021/FocusState/FocusState.png)
+
+Documentation: https://developer.apple.com/documentation/SwiftUI/FocusState
