@@ -18,6 +18,7 @@
 		2910525626750C8E00360DAA /* SwiftUI2021UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910525526750C8E00360DAA /* SwiftUI2021UITests.swift */; };
 		291052642675104E00360DAA /* TimeLineView.png in Resources */ = {isa = PBXBuildFile; fileRef = 291052632675104E00360DAA /* TimeLineView.png */; };
 		2981496326969A32006717B8 /* FocusStateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2981496226969A32006717B8 /* FocusStateDemoView.swift */; };
+		2981496526969D9A006717B8 /* FocusState.png in Resources */ = {isa = PBXBuildFile; fileRef = 2981496426969D9A006717B8 /* FocusState.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		2910525526750C8E00360DAA /* SwiftUI2021UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI2021UITests.swift; sourceTree = "<group>"; };
 		291052632675104E00360DAA /* TimeLineView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeLineView.png; sourceTree = "<group>"; };
 		2981496226969A32006717B8 /* FocusStateDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateDemoView.swift; sourceTree = "<group>"; };
+		2981496426969D9A006717B8 /* FocusState.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FocusState.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 		29814961269699D0006717B8 /* FocusState */ = {
 			isa = PBXGroup;
 			children = (
+				2981496426969D9A006717B8 /* FocusState.png */,
 				2981496226969A32006717B8 /* FocusStateDemoView.swift */,
 			);
 			path = FocusState;
@@ -267,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2981496526969D9A006717B8 /* FocusState.png in Resources */,
 				29059CD826954DB8003FC06E /* AsyncImageVariety.png in Resources */,
 				2910524226750C8D00360DAA /* Preview Assets.xcassets in Resources */,
 				291052642675104E00360DAA /* TimeLineView.png in Resources */,
