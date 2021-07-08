@@ -7,8 +7,10 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 @main
 struct SwiftUI2021App: App {
+    
     var body: some Scene {
         WindowGroup {
             HomeView()

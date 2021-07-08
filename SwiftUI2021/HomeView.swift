@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 struct HomeView: View {
     var body: some View {
         NavigationView {
@@ -25,6 +26,13 @@ struct HomeView: View {
                             .foregroundColor(.yellow)
                     }
                     .padding()
+                    
+                    NavigationLink(destination: FocusStateDemoView()) {
+                        Text("Focus State")
+                            .font(.headline)
+                            .foregroundColor(.green)
+                    }
+                    .padding()
                 }
                 .padding()
             }
@@ -33,6 +41,7 @@ struct HomeView: View {
     }
 }
 
+@available(iOS 15.0, *)
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
