@@ -24,3 +24,9 @@ Documentation: https://developer.apple.com/documentation/SwiftUI/FocusState
 ![alt text](https://github.com/NilaakashSingh/SwiftUI2021/blob/master/SwiftUI2021/Canvas/CanvasView.png)
 
 Documentation: https://developer.apple.com/documentation/SwiftUI/Canvas, https://developer.apple.com/documentation/swiftui/graphicscontext
+
+## Material modifier
+
+![alt text](https://github.com/NilaakashSingh/SwiftUI2021/blob/master/SwiftUI2021/Canvas/CanvasView.png)
+
+Documentation: https://developer.apple.com/documentation/SwiftUI/Material
