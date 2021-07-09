@@ -20,6 +20,8 @@
 		2969CE3526984DFA00B53F0A /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969CE3426984DFA00B53F0A /* CanvasView.swift */; };
 		2969CE372698529800B53F0A /* CanvasView.png in Resources */ = {isa = PBXBuildFile; fileRef = 2969CE362698529800B53F0A /* CanvasView.png */; };
 		2969CE39269852C400B53F0A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2969CE38269852C400B53F0A /* README.md */; };
+		2969CE3C26985A8E00B53F0A /* MaterialTypeSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969CE3B26985A8E00B53F0A /* MaterialTypeSwiftUI.swift */; };
+		2969CE3E26985ED100B53F0A /* Material.png in Resources */ = {isa = PBXBuildFile; fileRef = 2969CE3D26985ED100B53F0A /* Material.png */; };
 		2981496326969A32006717B8 /* FocusStateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2981496226969A32006717B8 /* FocusStateDemoView.swift */; };
 		2981496526969D9A006717B8 /* FocusState.png in Resources */ = {isa = PBXBuildFile; fileRef = 2981496426969D9A006717B8 /* FocusState.png */; };
 /* End PBXBuildFile section */
@@ -58,6 +60,8 @@
 		2969CE3426984DFA00B53F0A /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		2969CE362698529800B53F0A /* CanvasView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CanvasView.png; sourceTree = "<group>"; };
 		2969CE38269852C400B53F0A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2969CE3B26985A8E00B53F0A /* MaterialTypeSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialTypeSwiftUI.swift; sourceTree = "<group>"; };
+		2969CE3D26985ED100B53F0A /* Material.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Material.png; sourceTree = "<group>"; };
 		2981496226969A32006717B8 /* FocusStateDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateDemoView.swift; sourceTree = "<group>"; };
 		2981496426969D9A006717B8 /* FocusState.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FocusState.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +129,7 @@
 				29059CD4269549E6003FC06E /* AsyncImage */,
 				29814961269699D0006717B8 /* FocusState */,
 				2969CE3326984DE500B53F0A /* Canvas */,
+				2969CE3A26985A7500B53F0A /* MaterialType */,
 				2910523A26750C8B00360DAA /* SwiftUI2021App.swift */,
 				2910523E26750C8D00360DAA /* Assets.xcassets */,
 				2910524026750C8D00360DAA /* Preview Content */,
@@ -172,6 +177,15 @@
 				2969CE362698529800B53F0A /* CanvasView.png */,
 			);
 			path = Canvas;
+			sourceTree = "<group>";
+		};
+		2969CE3A26985A7500B53F0A /* MaterialType */ = {
+			isa = PBXGroup;
+			children = (
+				2969CE3D26985ED100B53F0A /* Material.png */,
+				2969CE3B26985A8E00B53F0A /* MaterialTypeSwiftUI.swift */,
+			);
+			path = MaterialType;
 			sourceTree = "<group>";
 		};
 		29814961269699D0006717B8 /* FocusState */ = {
@@ -293,6 +307,7 @@
 				2969CE39269852C400B53F0A /* README.md in Resources */,
 				291052642675104E00360DAA /* TimeLineView.png in Resources */,
 				2969CE372698529800B53F0A /* CanvasView.png in Resources */,
+				2969CE3E26985ED100B53F0A /* Material.png in Resources */,
 				2910523F26750C8D00360DAA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +338,7 @@
 				2969CE3526984DFA00B53F0A /* CanvasView.swift in Sources */,
 				2981496326969A32006717B8 /* FocusStateDemoView.swift in Sources */,
 				2910523D26750C8B00360DAA /* TimelineViewSwiftUI.swift in Sources */,
+				2969CE3C26985A8E00B53F0A /* MaterialTypeSwiftUI.swift in Sources */,
 				2910523B26750C8B00360DAA /* SwiftUI2021App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

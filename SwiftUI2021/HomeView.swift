@@ -40,6 +40,13 @@ struct HomeView: View {
                             .foregroundColor(.black)
                     }
                     .padding()
+                    
+                    NavigationLink(destination: MaterialTypeSwiftUI()) {
+                        Text("Material")
+                            .font(.headline)
+                            .foregroundColor(.purple)
+                    }
+                    .padding()
                 }
                 .padding()
             }
