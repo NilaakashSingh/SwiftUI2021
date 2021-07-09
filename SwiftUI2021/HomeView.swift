@@ -33,6 +33,13 @@ struct HomeView: View {
                             .foregroundColor(.green)
                     }
                     .padding()
+                    
+                    NavigationLink(destination: CanvasView()) {
+                        Text("Canvas")
+                            .font(.headline)
+                            .foregroundColor(.black)
+                    }
+                    .padding()
                 }
                 .padding()
             }
