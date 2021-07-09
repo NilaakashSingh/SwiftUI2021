@@ -18,6 +18,8 @@
 		2910525626750C8E00360DAA /* SwiftUI2021UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910525526750C8E00360DAA /* SwiftUI2021UITests.swift */; };
 		291052642675104E00360DAA /* TimeLineView.png in Resources */ = {isa = PBXBuildFile; fileRef = 291052632675104E00360DAA /* TimeLineView.png */; };
 		2969CE3526984DFA00B53F0A /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969CE3426984DFA00B53F0A /* CanvasView.swift */; };
+		2969CE372698529800B53F0A /* CanvasView.png in Resources */ = {isa = PBXBuildFile; fileRef = 2969CE362698529800B53F0A /* CanvasView.png */; };
+		2969CE39269852C400B53F0A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2969CE38269852C400B53F0A /* README.md */; };
 		2981496326969A32006717B8 /* FocusStateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2981496226969A32006717B8 /* FocusStateDemoView.swift */; };
 		2981496526969D9A006717B8 /* FocusState.png in Resources */ = {isa = PBXBuildFile; fileRef = 2981496426969D9A006717B8 /* FocusState.png */; };
 /* End PBXBuildFile section */
@@ -54,6 +56,8 @@
 		2910525526750C8E00360DAA /* SwiftUI2021UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI2021UITests.swift; sourceTree = "<group>"; };
 		291052632675104E00360DAA /* TimeLineView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeLineView.png; sourceTree = "<group>"; };
 		2969CE3426984DFA00B53F0A /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		2969CE362698529800B53F0A /* CanvasView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CanvasView.png; sourceTree = "<group>"; };
+		2969CE38269852C400B53F0A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2981496226969A32006717B8 /* FocusStateDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateDemoView.swift; sourceTree = "<group>"; };
 		2981496426969D9A006717B8 /* FocusState.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FocusState.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +99,7 @@
 		2910522E26750C8B00360DAA = {
 			isa = PBXGroup;
 			children = (
+				2969CE38269852C400B53F0A /* README.md */,
 				2910523926750C8B00360DAA /* SwiftUI2021 */,
 				2910524A26750C8E00360DAA /* SwiftUI2021Tests */,
 				2910525426750C8E00360DAA /* SwiftUI2021UITests */,
@@ -164,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				2969CE3426984DFA00B53F0A /* CanvasView.swift */,
+				2969CE362698529800B53F0A /* CanvasView.png */,
 			);
 			path = Canvas;
 			sourceTree = "<group>";
@@ -284,7 +290,9 @@
 				2981496526969D9A006717B8 /* FocusState.png in Resources */,
 				29059CD826954DB8003FC06E /* AsyncImageVariety.png in Resources */,
 				2910524226750C8D00360DAA /* Preview Assets.xcassets in Resources */,
+				2969CE39269852C400B53F0A /* README.md in Resources */,
 				291052642675104E00360DAA /* TimeLineView.png in Resources */,
+				2969CE372698529800B53F0A /* CanvasView.png in Resources */,
 				2910523F26750C8D00360DAA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
