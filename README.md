@@ -27,6 +27,6 @@ Documentation: https://developer.apple.com/documentation/SwiftUI/Canvas, https:/
 
 ## Material modifier
 
-![alt text](https://github.com/NilaakashSingh/SwiftUI2021/blob/master/SwiftUI2021/Canvas/CanvasView.png)
+![alt text](https://github.com/NilaakashSingh/SwiftUI2021/blob/master/SwiftUI2021/MaterialType/Material.png)
 
 Documentation: https://developer.apple.com/documentation/SwiftUI/Material
