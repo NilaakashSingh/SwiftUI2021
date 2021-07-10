@@ -49,6 +49,7 @@ struct ListSwipeActionsSwiftUI: View {
                 }
             }
         }
+        .refreshable {}
     }
 }
 

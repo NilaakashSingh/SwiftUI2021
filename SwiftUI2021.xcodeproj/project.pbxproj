@@ -12,6 +12,7 @@
 		29059CD826954DB8003FC06E /* AsyncImageVariety.png in Resources */ = {isa = PBXBuildFile; fileRef = 29059CD726954DB8003FC06E /* AsyncImageVariety.png */; };
 		290762FA2699E13A000E89AD /* ListSwipeActionsSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290762F92699E13A000E89AD /* ListSwipeActionsSwiftUI.swift */; };
 		290762FC2699E6CC000E89AD /* ListSwipeActions.png in Resources */ = {isa = PBXBuildFile; fileRef = 290762FB2699E6CC000E89AD /* ListSwipeActions.png */; };
+		290762FE2699E88F000E89AD /* ListViewRefreshable.png in Resources */ = {isa = PBXBuildFile; fileRef = 290762FD2699E88F000E89AD /* ListViewRefreshable.png */; };
 		2910523B26750C8B00360DAA /* SwiftUI2021App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910523A26750C8B00360DAA /* SwiftUI2021App.swift */; };
 		2910523D26750C8B00360DAA /* TimelineViewSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910523C26750C8B00360DAA /* TimelineViewSwiftUI.swift */; };
 		2910523F26750C8D00360DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2910523E26750C8D00360DAA /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 		29059CD726954DB8003FC06E /* AsyncImageVariety.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AsyncImageVariety.png; sourceTree = "<group>"; };
 		290762F92699E13A000E89AD /* ListSwipeActionsSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeActionsSwiftUI.swift; sourceTree = "<group>"; };
 		290762FB2699E6CC000E89AD /* ListSwipeActions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ListSwipeActions.png; sourceTree = "<group>"; };
+		290762FD2699E88F000E89AD /* ListViewRefreshable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ListViewRefreshable.png; sourceTree = "<group>"; };
 		2910523726750C8B00360DAA /* SwiftUI2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2910523A26750C8B00360DAA /* SwiftUI2021App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI2021App.swift; sourceTree = "<group>"; };
 		2910523C26750C8B00360DAA /* TimelineViewSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewSwiftUI.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		290762F82699E0D5000E89AD /* ListSwipeActions */ = {
 			isa = PBXGroup;
 			children = (
+				290762FD2699E88F000E89AD /* ListViewRefreshable.png */,
 				290762FB2699E6CC000E89AD /* ListSwipeActions.png */,
 				290762F92699E13A000E89AD /* ListSwipeActionsSwiftUI.swift */,
 			);
@@ -317,6 +320,7 @@
 			files = (
 				2981496526969D9A006717B8 /* FocusState.png in Resources */,
 				29059CD826954DB8003FC06E /* AsyncImageVariety.png in Resources */,
+				290762FE2699E88F000E89AD /* ListViewRefreshable.png in Resources */,
 				2910524226750C8D00360DAA /* Preview Assets.xcassets in Resources */,
 				2969CE39269852C400B53F0A /* README.md in Resources */,
 				291052642675104E00360DAA /* TimeLineView.png in Resources */,

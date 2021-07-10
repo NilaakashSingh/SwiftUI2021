@@ -36,3 +36,9 @@ Documentation: https://developer.apple.com/documentation/SwiftUI/Material
 ![alt text](https://github.com/NilaakashSingh/SwiftUI2021/blob/master/SwiftUI2021/ListSwipeActions/ListSwipeActions.png)
 
 Documentation: https://developer.apple.com/documentation/SwiftUI/View/swipeActions(edge:allowsFullSwipe:content:)
+
+## List Refreshable actions
+
+![alt text](https://github.com/NilaakashSingh/SwiftUI2021/blob/master/SwiftUI2021/ListSwipeActions/ListViewRefreshable.png)
+
+Documentation: https://developer.apple.com/documentation/SwiftUI/View/refreshable(action:)
