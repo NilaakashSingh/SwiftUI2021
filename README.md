@@ -30,3 +30,9 @@ Documentation: https://developer.apple.com/documentation/SwiftUI/Canvas, https:/
 ![alt text](https://github.com/NilaakashSingh/SwiftUI2021/blob/master/SwiftUI2021/MaterialType/Material.png)
 
 Documentation: https://developer.apple.com/documentation/SwiftUI/Material
+
+## List Swipe actions
+
+![alt text](https://github.com/NilaakashSingh/SwiftUI2021/blob/master/SwiftUI2021/MaterialType/Material.png)
+
+Documentation: https://developer.apple.com/documentation/SwiftUI/View/swipeActions(edge:allowsFullSwipe:content:)

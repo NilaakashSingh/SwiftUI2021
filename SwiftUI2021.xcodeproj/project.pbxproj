@@ -10,6 +10,8 @@
 		29059CD326954843003FC06E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29059CD226954843003FC06E /* HomeView.swift */; };
 		29059CD626954A01003FC06E /* AsyncImageViewSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29059CD526954A01003FC06E /* AsyncImageViewSwiftUI.swift */; };
 		29059CD826954DB8003FC06E /* AsyncImageVariety.png in Resources */ = {isa = PBXBuildFile; fileRef = 29059CD726954DB8003FC06E /* AsyncImageVariety.png */; };
+		290762FA2699E13A000E89AD /* ListSwipeActionsSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290762F92699E13A000E89AD /* ListSwipeActionsSwiftUI.swift */; };
+		290762FC2699E6CC000E89AD /* ListSwipeActions.png in Resources */ = {isa = PBXBuildFile; fileRef = 290762FB2699E6CC000E89AD /* ListSwipeActions.png */; };
 		2910523B26750C8B00360DAA /* SwiftUI2021App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910523A26750C8B00360DAA /* SwiftUI2021App.swift */; };
 		2910523D26750C8B00360DAA /* TimelineViewSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910523C26750C8B00360DAA /* TimelineViewSwiftUI.swift */; };
 		2910523F26750C8D00360DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2910523E26750C8D00360DAA /* Assets.xcassets */; };
@@ -47,6 +49,8 @@
 		29059CD226954843003FC06E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		29059CD526954A01003FC06E /* AsyncImageViewSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageViewSwiftUI.swift; sourceTree = "<group>"; };
 		29059CD726954DB8003FC06E /* AsyncImageVariety.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AsyncImageVariety.png; sourceTree = "<group>"; };
+		290762F92699E13A000E89AD /* ListSwipeActionsSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeActionsSwiftUI.swift; sourceTree = "<group>"; };
+		290762FB2699E6CC000E89AD /* ListSwipeActions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ListSwipeActions.png; sourceTree = "<group>"; };
 		2910523726750C8B00360DAA /* SwiftUI2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2910523A26750C8B00360DAA /* SwiftUI2021App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI2021App.swift; sourceTree = "<group>"; };
 		2910523C26750C8B00360DAA /* TimelineViewSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewSwiftUI.swift; sourceTree = "<group>"; };
@@ -100,6 +104,15 @@
 			path = AsyncImage;
 			sourceTree = "<group>";
 		};
+		290762F82699E0D5000E89AD /* ListSwipeActions */ = {
+			isa = PBXGroup;
+			children = (
+				290762FB2699E6CC000E89AD /* ListSwipeActions.png */,
+				290762F92699E13A000E89AD /* ListSwipeActionsSwiftUI.swift */,
+			);
+			path = ListSwipeActions;
+			sourceTree = "<group>";
+		};
 		2910522E26750C8B00360DAA = {
 			isa = PBXGroup;
 			children = (
@@ -124,13 +137,14 @@
 		2910523926750C8B00360DAA /* SwiftUI2021 */ = {
 			isa = PBXGroup;
 			children = (
+				2910523A26750C8B00360DAA /* SwiftUI2021App.swift */,
 				29059CD226954843003FC06E /* HomeView.swift */,
 				291052622675103800360DAA /* TimeLine */,
 				29059CD4269549E6003FC06E /* AsyncImage */,
 				29814961269699D0006717B8 /* FocusState */,
 				2969CE3326984DE500B53F0A /* Canvas */,
 				2969CE3A26985A7500B53F0A /* MaterialType */,
-				2910523A26750C8B00360DAA /* SwiftUI2021App.swift */,
+				290762F82699E0D5000E89AD /* ListSwipeActions */,
 				2910523E26750C8D00360DAA /* Assets.xcassets */,
 				2910524026750C8D00360DAA /* Preview Content */,
 			);
@@ -306,6 +320,7 @@
 				2910524226750C8D00360DAA /* Preview Assets.xcassets in Resources */,
 				2969CE39269852C400B53F0A /* README.md in Resources */,
 				291052642675104E00360DAA /* TimeLineView.png in Resources */,
+				290762FC2699E6CC000E89AD /* ListSwipeActions.png in Resources */,
 				2969CE372698529800B53F0A /* CanvasView.png in Resources */,
 				2969CE3E26985ED100B53F0A /* Material.png in Resources */,
 				2910523F26750C8D00360DAA /* Assets.xcassets in Resources */,
@@ -339,6 +354,7 @@
 				2981496326969A32006717B8 /* FocusStateDemoView.swift in Sources */,
 				2910523D26750C8B00360DAA /* TimelineViewSwiftUI.swift in Sources */,
 				2969CE3C26985A8E00B53F0A /* MaterialTypeSwiftUI.swift in Sources */,
+				290762FA2699E13A000E89AD /* ListSwipeActionsSwiftUI.swift in Sources */,
 				2910523B26750C8B00360DAA /* SwiftUI2021App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -47,6 +47,13 @@ struct HomeView: View {
                             .foregroundColor(.purple)
                     }
                     .padding()
+                    
+                    NavigationLink(destination: ListSwipeActionsSwiftUI()) {
+                        Text("List SwipeActions")
+                            .font(.headline)
+                            .foregroundColor(.indigo)
+                    }
+                    .padding()
                 }
                 .padding()
             }
