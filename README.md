@@ -49,3 +49,9 @@ Documentation: https://developer.apple.com/documentation/SwiftUI/View/refreshabl
 ![alt text](https://github.com/NilaakashSingh/SwiftUI2021/blob/master/SwiftUI2021/ListSwipeActions/Badges.png)
 
 Documentation: https://developer.apple.com/documentation/SwiftUI/View/badge(_:)-84e43
+
+## Preview Orientation
+
+![alt text](https://github.com/NilaakashSingh/SwiftUI2021/blob/master/SwiftUI2021/ListSwipeActions/PreviewOrientation.png)
+
+Documentation: https://developer.apple.com/documentation/SwiftUI/View/previewInterfaceOrientation(_:)

@@ -32,6 +32,7 @@ struct ListSwipeActionsSwiftUI: View {
                     Text(movie.title)
                         .padding()
                 }
+                .listRowSeparatorTint(.yellow)
                 .badge("2")
                 .swipeActions(edge: .leading, allowsFullSwipe: true) {
                     Button(action: {}, label: {
@@ -50,6 +51,7 @@ struct ListSwipeActionsSwiftUI: View {
                 }
             }
         }
+        .listStyle(.grouped)
         .navigationTitle("List View")
         .navigationBarTitleDisplayMode(.inline)
         .refreshable {}
@@ -59,6 +61,9 @@ struct ListSwipeActionsSwiftUI: View {
 @available(iOS 15.0, *)
 struct ListSwipeActionsSwiftUI_Previews: PreviewProvider {
     static var previews: some View {
-        MaterialTypeSwiftUI()
+        Group {
+            ListSwipeActionsSwiftUI()
+                //.previewInterfaceOrientation(.landscapeRight)
+        }
     }
 }
