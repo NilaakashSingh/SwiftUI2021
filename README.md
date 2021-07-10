@@ -44,6 +44,7 @@ Documentation: https://developer.apple.com/documentation/SwiftUI/View/swipeActio
 Documentation: https://developer.apple.com/documentation/SwiftUI/View/refreshable(action:)
 
 ## Badges
+### Badges are only displayed in list rows and tab bars.
 
 ![alt text](https://github.com/NilaakashSingh/SwiftUI2021/blob/master/SwiftUI2021/ListSwipeActions/Badges.png)
 
