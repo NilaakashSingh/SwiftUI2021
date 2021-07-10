@@ -32,6 +32,7 @@ struct ListSwipeActionsSwiftUI: View {
                     Text(movie.title)
                         .padding()
                 }
+                .badge("2")
                 .swipeActions(edge: .leading, allowsFullSwipe: true) {
                     Button(action: {}, label: {
                         Label("Unread", systemImage: "envelope.badge")
@@ -49,6 +50,8 @@ struct ListSwipeActionsSwiftUI: View {
                 }
             }
         }
+        .navigationTitle("List View")
+        .navigationBarTitleDisplayMode(.inline)
         .refreshable {}
     }
 }

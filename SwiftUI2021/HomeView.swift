@@ -49,7 +49,7 @@ struct HomeView: View {
                     .padding()
                     
                     NavigationLink(destination: ListSwipeActionsSwiftUI()) {
-                        Text("List SwipeActions")
+                        Text("List SwipeActions, Refreshable, Badges")
                             .font(.headline)
                             .foregroundColor(.indigo)
                     }
