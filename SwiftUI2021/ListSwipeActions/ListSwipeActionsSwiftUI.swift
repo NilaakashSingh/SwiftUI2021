@@ -15,6 +15,7 @@ struct Movie: Identifiable {
 
 @available(iOS 15.0, *)
 struct ListSwipeActionsSwiftUI: View {
+    @State private var text = "" 
     @State var movies = [
         Movie(title: "Episode IV – A New Hope"),
         Movie(title: "Episode V – The Empire Strikes Back"),
@@ -55,6 +56,7 @@ struct ListSwipeActionsSwiftUI: View {
         .navigationTitle("List View")
         .navigationBarTitleDisplayMode(.inline)
         .refreshable {}
+        .searchable(text: $text)
     }
 }
 

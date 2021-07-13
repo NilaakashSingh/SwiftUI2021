@@ -61,3 +61,9 @@ Documentation: https://developer.apple.com/documentation/SwiftUI/View/previewInt
 ![alt text](https://github.com/NilaakashSingh/SwiftUI2021/blob/master/SwiftUI2021/SymbolVariant/SymbolVariant.png)
 
 Documentation: https://developer.apple.com/documentation/SwiftUI/View/symbolVariant(_:)
+
+## Searchable
+
+![alt text](https://github.com/NilaakashSingh/SwiftUI2021/blob/master/SwiftUI2021/ListSwipeActions/Searchable.png)
+
+Documentation: https://developer.apple.com/documentation/swiftui/view/searchable(text:placement:prompt:)-1bjj3

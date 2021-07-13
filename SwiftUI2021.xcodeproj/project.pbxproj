@@ -27,6 +27,7 @@
 		2969CE39269852C400B53F0A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2969CE38269852C400B53F0A /* README.md */; };
 		2969CE3C26985A8E00B53F0A /* MaterialTypeSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969CE3B26985A8E00B53F0A /* MaterialTypeSwiftUI.swift */; };
 		2969CE3E26985ED100B53F0A /* Material.png in Resources */ = {isa = PBXBuildFile; fileRef = 2969CE3D26985ED100B53F0A /* Material.png */; };
+		296E3D34269D3E8100443423 /* Searchable.png in Resources */ = {isa = PBXBuildFile; fileRef = 296E3D33269D3E8100443423 /* Searchable.png */; };
 		2981496326969A32006717B8 /* FocusStateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2981496226969A32006717B8 /* FocusStateDemoView.swift */; };
 		2981496526969D9A006717B8 /* FocusState.png in Resources */ = {isa = PBXBuildFile; fileRef = 2981496426969D9A006717B8 /* FocusState.png */; };
 		29CF6E84269D29A500A52C58 /* SymbolVariantSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CF6E83269D29A500A52C58 /* SymbolVariantSwiftUI.swift */; };
@@ -74,6 +75,7 @@
 		2969CE38269852C400B53F0A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2969CE3B26985A8E00B53F0A /* MaterialTypeSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialTypeSwiftUI.swift; sourceTree = "<group>"; };
 		2969CE3D26985ED100B53F0A /* Material.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Material.png; sourceTree = "<group>"; };
+		296E3D33269D3E8100443423 /* Searchable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Searchable.png; sourceTree = "<group>"; };
 		2981496226969A32006717B8 /* FocusStateDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateDemoView.swift; sourceTree = "<group>"; };
 		2981496426969D9A006717B8 /* FocusState.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FocusState.png; sourceTree = "<group>"; };
 		29CF6E83269D29A500A52C58 /* SymbolVariantSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolVariantSwiftUI.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				290762FF2699ECB7000E89AD /* Badges.png */,
 				290762FD2699E88F000E89AD /* ListViewRefreshable.png */,
 				290762FB2699E6CC000E89AD /* ListSwipeActions.png */,
+				296E3D33269D3E8100443423 /* Searchable.png */,
 				290762F92699E13A000E89AD /* ListSwipeActionsSwiftUI.swift */,
 			);
 			path = ListSwipeActions;
@@ -347,6 +350,7 @@
 				290763002699ECB7000E89AD /* Badges.png in Resources */,
 				291052642675104E00360DAA /* TimeLineView.png in Resources */,
 				290762FC2699E6CC000E89AD /* ListSwipeActions.png in Resources */,
+				296E3D34269D3E8100443423 /* Searchable.png in Resources */,
 				2969CE372698529800B53F0A /* CanvasView.png in Resources */,
 				2969CE3E26985ED100B53F0A /* Material.png in Resources */,
 				2910523F26750C8D00360DAA /* Assets.xcassets in Resources */,
