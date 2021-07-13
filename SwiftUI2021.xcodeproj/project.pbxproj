@@ -29,6 +29,7 @@
 		2969CE3E26985ED100B53F0A /* Material.png in Resources */ = {isa = PBXBuildFile; fileRef = 2969CE3D26985ED100B53F0A /* Material.png */; };
 		2981496326969A32006717B8 /* FocusStateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2981496226969A32006717B8 /* FocusStateDemoView.swift */; };
 		2981496526969D9A006717B8 /* FocusState.png in Resources */ = {isa = PBXBuildFile; fileRef = 2981496426969D9A006717B8 /* FocusState.png */; };
+		29CF6E84269D29A500A52C58 /* SymbolVariantSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CF6E83269D29A500A52C58 /* SymbolVariantSwiftUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		2969CE3D26985ED100B53F0A /* Material.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Material.png; sourceTree = "<group>"; };
 		2981496226969A32006717B8 /* FocusStateDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateDemoView.swift; sourceTree = "<group>"; };
 		2981496426969D9A006717B8 /* FocusState.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FocusState.png; sourceTree = "<group>"; };
+		29CF6E83269D29A500A52C58 /* SymbolVariantSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolVariantSwiftUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				2969CE3326984DE500B53F0A /* Canvas */,
 				2969CE3A26985A7500B53F0A /* MaterialType */,
 				290762F82699E0D5000E89AD /* ListSwipeActions */,
+				29CF6E82269D296F00A52C58 /* SymbolVariant */,
 				2910523E26750C8D00360DAA /* Assets.xcassets */,
 				2910524026750C8D00360DAA /* Preview Content */,
 			);
@@ -218,6 +221,14 @@
 				2981496226969A32006717B8 /* FocusStateDemoView.swift */,
 			);
 			path = FocusState;
+			sourceTree = "<group>";
+		};
+		29CF6E82269D296F00A52C58 /* SymbolVariant */ = {
+			isa = PBXGroup;
+			children = (
+				29CF6E83269D29A500A52C58 /* SymbolVariantSwiftUI.swift */,
+			);
+			path = SymbolVariant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,6 +379,7 @@
 				2969CE3C26985A8E00B53F0A /* MaterialTypeSwiftUI.swift in Sources */,
 				290762FA2699E13A000E89AD /* ListSwipeActionsSwiftUI.swift in Sources */,
 				2910523B26750C8B00360DAA /* SwiftUI2021App.swift in Sources */,
+				29CF6E84269D29A500A52C58 /* SymbolVariantSwiftUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
