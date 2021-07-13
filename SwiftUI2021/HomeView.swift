@@ -54,6 +54,13 @@ struct HomeView: View {
                             .foregroundColor(.indigo)
                     }
                     .padding()
+                    
+                    NavigationLink(destination: SymbolVariantSwiftUI()) {
+                        Text("Symbol Variant")
+                            .font(.headline)
+                            .foregroundColor(.brown)
+                    }
+                    .padding()
                 }
                 .padding()
             }

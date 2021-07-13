@@ -36,8 +36,9 @@ struct SymbolVariantSwiftUI: View {
                 .symbolVariant(.circle)
                 .symbolVariant(.fill)
         }
+        .navigationTitle("Symbol Variant")
+        .navigationBarTitleDisplayMode(.inline)
     }
-        .navigationTitle("Symbol Variants")
 }
 
 

@@ -55,3 +55,9 @@ Documentation: https://developer.apple.com/documentation/SwiftUI/View/badge(_:)-
 ![alt text](https://github.com/NilaakashSingh/SwiftUI2021/blob/master/SwiftUI2021/ListSwipeActions/PreviewOrientation.png)
 
 Documentation: https://developer.apple.com/documentation/SwiftUI/View/previewInterfaceOrientation(_:)
+
+## Symbol Variant
+
+![alt text](https://github.com/NilaakashSingh/SwiftUI2021/blob/master/SwiftUI2021/SymbolVariant/SymbolVariant.png)
+
+Documentation: https://developer.apple.com/documentation/SwiftUI/View/symbolVariant(_:)
