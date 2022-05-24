@@ -7,7 +7,7 @@ This repo will demonstrate new components introduced in SwiftUI WWDC 2021 based 
 
 Documentation: https://developer.apple.com/documentation/swiftui/timelineschedule
 
-## ASync Image and its variety
+## ASync Image and varieties
 
 ![alt text](https://github.com/NilaakashSingh/SwiftUI2021/blob/master/SwiftUI2021/AsyncImage/AsyncImageVariety.png)
 
